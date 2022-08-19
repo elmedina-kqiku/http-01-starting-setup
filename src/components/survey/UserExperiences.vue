@@ -37,7 +37,7 @@ export default {
             loadExperiences() {
                   this.isLoading = true;
                   this.error = null;
-                  //HOW TO SEND -DATA-
+                  //HOW TO GET -DATA-
                   fetch('https://vue-http-demo-c0a14-default-rtdb.europe-west1.firebasedatabase.app/surveys.json')
                         .then((response) => {
                               if (response.ok) {
